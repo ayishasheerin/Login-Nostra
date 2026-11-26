@@ -34,7 +34,7 @@ function Signup() {
   }
 
   try {
-    const response = await axios.post('http://localhost:5000/signup', {
+    const response = await axios.post('https://signin-nostra.vercel.app/signup', {
       name: name,
       email: email,
       password: password
